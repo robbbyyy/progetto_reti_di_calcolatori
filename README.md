@@ -33,5 +33,4 @@ Il server universitario ad ogni richiesta di prenotazione invia alla segreteria 
 
 ### Gruppo 3 studenti
 
-Se la segreteria non risponde alla richiesta dello studente questo deve ritentare la connessione per 3 volte. Se le richieste continuano a  fallire allora aspetta un tempo random e ritenta.  
-Simulare un timeout della segreteria in modo da arrivare a testare l'attesa random
+Se la segreteria non risponde alla richiesta dello studente questo deve ritentare la connessione per 3 volte. Se le richieste continuano a  fallire allora aspetta un tempo random e ritenta. Simulare un timeout della segreteria in modo da arrivare a testare l'attesa random
