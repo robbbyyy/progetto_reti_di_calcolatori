@@ -5,25 +5,27 @@ Scrivere un'applicazione client/server parallelo per gestire gli esami universit
 
 ### Gruppo 1 studente
 
-Segreteria:
+**Segreteria:**
 
-Inserisce gli esami sul server dell'università (salvare in un file o conservare in memoria il dato)
+- Inserisce gli esami sul server dell'università (salvare in un file o conservare in memoria il dato)
 
-Inoltra la richiesta di prenotazione degli studenti al server universitario
+- Inoltra la richiesta di prenotazione degli studenti al server universitario
 
-Fornisce allo studente le date degli esami disponibili per l'esame scelto dallo studente
+- Fornisce allo studente le date degli esami disponibili per l'esame scelto dallo studente
 
-Studente:
 
-Chiede alla segreteria se ci siano esami disponibili per un corso
+**Studente:**
 
-Invia una richiesta di prenotazione di un esame alla segreteria
+- Chiede alla segreteria se ci siano esami disponibili per un corso
 
-Server universitario:
+- Invia una richiesta di prenotazione di un esame alla segreteria
 
-Riceve l'aggiunta di nuovi esami
 
-Riceve la prenotazione di un esame
+**Server universitario:**
+
+- Riceve l'aggiunta di nuovi esami
+
+- Riceve la prenotazione di un esame
 
 ### Gruppo 2 studenti
 
