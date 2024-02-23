@@ -4,7 +4,6 @@
 #include <unistd.h>
 #include <sys/socket.h>
 #include <string.h>
-#include <unistd.h>
 #include <mysql/mysql.h>
 
 
@@ -131,12 +130,15 @@ int main(int argc, char **argv) {
     fd_set read_fd_set, write_fd_set, master_fd_set;
     int max_fd;
 
+    // Inizializzazione del set di descrittori di file a zero
     FD_ZERO(&master_fd_set);
 
+    // Aggiunta del descrittore di file della socket del server al set
     FD_SET(sockfd, &master_fd_set);
     max_fd = sockfd;
-
     FD_SET(listenfd, &master_fd_set);
+
+    // Aggiornamento del valore massimo del descrittore di file
     max_fd = max(max_fd, listenfd);
 
     // Ciclo principale del server
